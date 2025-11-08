@@ -69,7 +69,7 @@ getProducts().then(function (products) {
     
 
     // Отримуємо всі кнопки "Купити" на сторінці
-    let buyButtons = document.querySelectorAll('.products-list .cart-btn');
+    let buyButtons = document.querySelectorAll('.products-list .btn-primary');
     // Навішуємо обробник подій на кожну кнопку "Купити"
     if (buyButtons) {
         buyButtons.forEach(function (button) {

@@ -1,7 +1,12 @@
-body{
-    
-    
-}
+
 button{
     position: absolute;
+}
+
+.products-list {
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }

@@ -48,8 +48,77 @@
     </header>
     <main class="container">
       <h1>Продаж квитків Укрзалізниці за меншою ціною!</h1>
-      <div class="cart-items-list"></div>
-      <button type="button" class="btn btn-primary btn-lg">Квитки</button>
+      <section class="cart py-4">
+        <h2>Ваш кошик</h2>
+        <div class="cart-items-list">У кошику ще немає товарів</div>
+        <div class="margin-y">
+          Сума замовлення: <span class="cart-total">0</span> грн.
+        </div>
+        <button id="orderBtn" class="cart-btn margin-y">
+          Оформити замовлення
+        </button>
+      </section>
+      <section class="order">
+        <h2>Оформлення замовлення</h2>
+        <form class="order-form" action="" method="post">
+          <div class="form-group mt-3">
+            <label for="firstName">Ім'я:</label>
+            <input
+              class="form-control"
+              type="text"
+              id="firstName"
+              name="firstName"
+              required
+            />
+          </div>
+
+          <div class="form-group mt-3">
+            <label for="lastName">Прізвище:</label>
+            <input
+              class="form-control"
+              type="text"
+              id="lastName"
+              name="lastName"
+              required
+            />
+          </div>
+
+          <div class="form-group mt-3">
+            <label for="email">Електронна пошта:</label>
+            <input
+              class="form-control"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+
+          <div class="form-group mt-3">
+            <label for="phone">Номер телефону:</label>
+            <input
+              class="form-control"
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+            />
+          </div>
+          <div class="form-group mt-3">
+            <label for="comment">Коментар:</label>
+            <textarea
+              class="form-control"
+              id="comment"
+              name="comment"
+              rows="4"
+            ></textarea>
+          </div>
+          <button type="button" class="confirm-order-btn margin-y">
+            Підтвердити
+          </button>
+        </form>
+      </section>
+
       <!-- Головний контент сторінки -->
     </main>
     <footer>
@@ -63,5 +132,7 @@
       crossorigin="anonymous"
     ></script>
     <!-- Власні JS-файли -->
+    <script src="main.js"></script>
+    <script src="cart.js"></script>
   </body>
 </html>

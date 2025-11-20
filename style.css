@@ -13,3 +13,22 @@ button {
 .order {
   display: none;
 }
+
+.cart-btn{
+  background-color: lightgreen;
+  margin-top: 40px;
+}
+
+.logo{
+  width: 200px;
+}
+
+nav{
+  background-color: #70bff5;
+}
+
+.nav-link{
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}

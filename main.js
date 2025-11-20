@@ -1,4 +1,4 @@
-// Функція для отримання значення кукі за ім'ям
+
 function getCookieValue(cookieName) {
   // Розділяємо всі куки на окремі частини
   const cookies = document.cookie.split(";");
@@ -35,7 +35,7 @@ function getCardHTML(product) {
     <p class="card-text">${product.price}</p>
    <a href="#" class="btn btn-primary" 
    data-product='${JSON.stringify(product)}'>
-   Придбати/Бронь
+   Придбати
 </a>
   </div>
 </div>`;
@@ -113,5 +113,6 @@ function addToCart(event) {
 
   // Додаємо товар до кошика
   cart.addItem(product);
+  event.preventDefault()
   console.log(cart);
 }

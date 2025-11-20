@@ -3,6 +3,7 @@ let cart_list = document.querySelector(".cart-items-list");
 let cart_total = document.querySelector(".cart-total");
 let orderBtn = document.querySelector("#orderBtn");
 let orderSection = document.querySelector(".order");
+let deleteBtn = document.querySelector("#delete-btn");
 let orderForm = document.querySelector(".order-form");
 let confirmBtn = document.querySelector(".confirm-order-btn");
 function get_item(item) {
@@ -43,3 +44,8 @@ confirmBtn.addEventListener("click", function () {
     orderForm.reportValidity();
   }
 });
+
+deleteBtn.addEventListener("click", function() {
+  document.cookie="cart=; max-age=0; path=/"
+  location.reload()
+})

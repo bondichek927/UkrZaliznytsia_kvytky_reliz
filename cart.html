@@ -15,6 +15,23 @@
     <!-- Власні CSS-стилі -->
     <link rel="stylesheet" href="style.css" />
   </head>
+  <img id="funImg" src="https://i.ytimg.com/vi/lq3tByr-48g/mqdefault.jpg" style="
+  display:none;
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  width:300px;
+  z-index:99999;
+">
+
+
+<script>
+document.querySelector(".confirm-order-btn").addEventListener("click", function() {
+    document.getElementById("funImg").style.display = "block";
+});
+</script>
+
+
   <body>
     <!-- Тіло: увесь вміст сторінки -->
     <header>

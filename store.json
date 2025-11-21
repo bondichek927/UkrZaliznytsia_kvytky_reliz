@@ -11,7 +11,7 @@
   },
   {
     "title": "41/42 Дніпро-Трускавець-Дніпро",
-    "price": 300,
+    "price": 400,
     "image": "https://railtrain.pro/wp-content/uploads/2017/12/chs8-080-scaled.webp"
   },
 
@@ -33,28 +33,28 @@
 
   {
     "title": "148/149 Київ-Будапешт-Київ",
-    "price": 200,
+    "price": 780,
     "image": "https://railgallery.pp.ua/uploads/images/2025/07/26/174049052.jpg"
   },
 
   {
     "title": "101/102 Херсон-Гусарівка-Херсон",
-    "price": 200,
+    "price": 570,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjO0EQN-jmxJoiGQxeQVW0-2xXROpHuXUM1g&s"
   },
   {
     "title": "121/122 Київ-Херсон-Київ",
-    "price": 200,
+    "price": 560,
     "image": "https://railgallery.pp.ua/uploads/images/2024/05/05/825011553.jpg"
   },
   {
     "title": "51/52 Київ-Перемишль-Київ",
-    "price": 200,
+    "price": 700,
     "image": "https://uzdlines.narod.ru/1/00047.jpg"
   },
   {
     "title": "705/706 Київ-Перемишль-Київ Інтерсіті+",
-    "price": 200,
+    "price": 900,
     "image": "https://railtrain.pro/wp-content/uploads/2017/11/hrcs2-009.webp"
   },
   {
@@ -64,36 +64,36 @@
   },
   {
     "title": "123/124 Харків-Івано-Франківськ-Харків",
-    "price": 200,
+    "price": 650,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVVz1tZDvW59aXUlHCq-CaLVoZOXhvVUVxmQ&s"
   },
   {
     "title": "17/18 Харків-Ужгород-Харків Сковорода Експрес",
-    "price": 170,
+    "price": 600,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyt5VPqiiMFeGDkR3mi6TvMiq1PyUS0vLKcA&s"
   },
 
   {
     "title": "114/115 Київ-Суми-Київ",
-    "price": 200,
+    "price": 425,
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Chs8-14_%28cropped%29.jpg/250px-Chs8-14_%28cropped%29.jpg"
   },
 
   {
     "title": "785/786 Одеса-Київ-Одесса Інтерсіті",
-    "price": 200,
+    "price": 427,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqurJQtHKAb2wfuhPvJjFBv5tYQE13ZoVh1w&s"
   },
 
   {
     "title": "85/86 Запоріжжя-Львів-Запоріжжя",
-    "price": 200,
+    "price": 700,
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/ChS8-016.jpg"
   },
 
   {
     "title": "749/750 Київ-Ужгород-київ",
-    "price": 200,
+    "price": 500,
     "image": "https://вжд.рф/wp-content/uploads/2016/01/%D0%A7%D0%A18-001.webp"
   },
   {
@@ -103,7 +103,7 @@
   },
   {
     "title": "780/781 Київ-Суми-Київ",
-    "price": 215,
+    "price": 355,
     "image": "https://railgallery.ru/photo/01/47/30/147300.jpg"
   }
 ]
